@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait illustration</title>
+  <desc id="desc">Professional portrait illustration with academic color palette.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eef5fb"/>
+      <stop offset="100%" stop-color="#dfeaf6"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1b4974"/>
+      <stop offset="100%" stop-color="#102f4d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect x="110" y="90" width="580" height="620" rx="40" fill="#ffffff" opacity="0.7"/>
+
+  <circle cx="400" cy="314" r="138" fill="#d7b56d" opacity="0.8"/>
+  <path d="M291 288c12-90 72-153 163-153 92 0 157 64 161 155-28-17-57-27-93-30-65-6-116 18-166 56-22 17-46 44-65 72z" fill="#183b5b"/>
+  <path d="M319 334c18-15 44-23 82-27 48-4 89 7 117 31-21 34-82 58-198 40z" fill="#e8d8b9" opacity="0.95"/>
+  <circle cx="400" cy="287" r="116" fill="#f0d8b8"/>
+  <path d="M345 273c16-40 64-69 128-66 53 2 94 32 108 79-21-13-49-19-82-18-55 1-103 18-154 5z" fill="#183b5b"/>
+  <path d="M364 275c24 12 49 18 74 18 32 0 56-9 78-22" stroke="#183b5b" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <circle cx="371" cy="285" r="9" fill="#183b5b"/>
+  <circle cx="432" cy="285" r="9" fill="#183b5b"/>
+  <path d="M380 330c20 17 46 24 68 26 18 2 37-1 52-10" stroke="#b97557" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+  <path d="M240 645c22-132 113-204 160-204s138 72 160 204v45H240v-45z" fill="url(#coat)"/>
+  <path d="M313 456h174l-27 97H340l-27-97z" fill="#d7b56d" opacity="0.9"/>
+  <path d="M365 466h70v162h-70z" fill="#c69d4c" opacity="0.75"/>
+</svg>

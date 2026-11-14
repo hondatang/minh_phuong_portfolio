@@ -1,0 +1,44 @@
+:root {
+  --paper: #f3f7fb;
+  --paper-strong: #eaf1f7;
+  --ink: #14263d;
+  --muted: #52657a;
+  --line: rgba(20, 38, 61, 0.14);
+  --accent: #1d4f7a;
+  --accent-strong: #102f4d;
+  --accent-soft: #dfeefb;
+  --highlight: #d7b56d;
+  --shadow: rgba(18, 36, 55, 0.12);
+  --max-width: 1040px;
+  --font-display: "Segoe UI", "Tahoma", "Arial", sans-serif;
+  --font-text: "Segoe UI", "Tahoma", "Arial", sans-serif;
+  --font-mono: "Consolas", "Courier New", monospace;
+  --h1-size: clamp(2.6rem, 4vw, 4.4rem);
+  --h2-size: clamp(1.6rem, 2vw, 2.3rem);
+  --h3-size: clamp(1.1rem, 1.4vw, 1.4rem);
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+}
+
+html[data-pack="serif"] {
+  --font-display: "Georgia", "Times New Roman", serif;
+  --font-text: "Segoe UI", "Tahoma", "Arial", sans-serif;
+  --font-mono: "Consolas", "Courier New", monospace;
+}
+
+body.dark {
+  --paper: #101a26;
+  --paper-strong: #152437;
+  --ink: #edf3fb;
+  --muted: #b7c5d6;
+  --line: rgba(237, 243, 251, 0.14);
+  --accent: #9ec7ef;
+  --accent-strong: #cfe6ff;
+  --accent-soft: rgba(158, 199, 239, 0.12);
+  --highlight: #eccb86;
+  --shadow: rgba(0, 0, 0, 0.25);
+}
